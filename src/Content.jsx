@@ -1,4 +1,5 @@
 import "./Content.css";
+import bird from "./img/bird.jpg";
 const Content = () => {
   const parStyle = {
     fontFamily: "tahoma",
@@ -27,6 +28,11 @@ const Content = () => {
         src="https://cdn.pixabay.com/photo/2023/11/20/13/48/butterfly-8401173_640.jpg"
         alt=""
       />
+
+      <img src={bird} alt="bird" />
+
+      <img src="./assets/bird-y.jpg" alt="" />
+
       <p style={parStyle}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
         laudantium.

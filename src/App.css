@@ -14,10 +14,7 @@ header {
   color: white;
 }
 footer {
-  position: absolute;
   background-color: black;
   color: white;
   padding: 2rem;
-  width: 100%;
-  bottom: 0;
 }
